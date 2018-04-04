@@ -1,0 +1,186 @@
+
+/* PARTIE FIXE */
+
+/* HEADER */
+.container {
+  display: flex;
+}
+body {
+  flex-direction: column;
+  width: 100%;
+}
+header {
+  flex-direction: column;
+  align-items: center;
+  /*----------------------*/
+  width: 100%;
+  height: 200px;
+  /*----------------------*/
+  background-color: rgb(132, 198, 99);
+}
+header img {
+  width: 100px;
+  height: auto;
+}
+
+/* NAV */
+nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*----------------------*/
+  width: 100%;
+  height: 60px;
+  /*----------------------*/
+  background-color: rgb(50,150,0);
+}
+nav a {
+  padding: 21px 30px;
+  /*----------------------*/
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav a:hover {
+  color: black;
+  background-color: white;
+  transition: color 0.35s,
+              background-color 0.35s;
+
+}
+
+/* ASIDE */
+#fbox1 {
+  flex-direction: row;
+}
+aside {
+  flex-direction: column;
+  /*----------------------*/
+  height:inherit;
+  width: 250px;
+  /*----------------------*/
+  background-color: rgb(117, 183, 84);
+}
+aside div {
+  flex-direction: column;
+}
+aside h5 {
+  width: 100%;
+  /*----------------------*/
+  padding: 7px 0;
+  margin: 0 0 5px 0;
+  /*----------------------*/
+  font-size: 17px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 0 0 40px 0;
+}
+aside h5 a {
+  text-decoration: none;
+  color: black;
+}
+aside div a {
+  width: 100%;
+  padding: 5px 20px;
+  padding-right: 0;
+  /*----------------------*/
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+aside div a:hover {
+  background-color: rgb(50,150,0);
+  width: 100%;
+  box-shadow: 0px 5px 10px #000;
+  padding-left: 30px;
+  font-weight: bold;
+  transition: width 0.3s,
+              box-shadow 0.5s,
+              font-weight 0.3s,
+              padding-left 0.3s,
+              background-color 0.3s;
+}
+aside h5 a:hover {
+  padding-left: 30px;
+  transition: padding-left 0.3s;
+}
+
+
+/* SECTION */
+section {
+  flex-direction: column;
+  /*----------------------*/
+  background-color: white;
+  /*----------------------*/
+  margin-bottom: 80px;
+}
+section h2 {
+  font-family: Lobster Two;
+  font-size: 40px;
+  text-shadow: 3px -4px 1px rgba(0,0,0,0.25);
+  text-align: center;
+}
+article {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.st1 {
+  margin: 50px 0 25px 0;
+  font-size: 27px;
+  color: white;
+  background-color: rgb(50,150,0);
+  padding: 8px;
+}
+.st2 {
+  margin: 35px 0 10px 0;
+  font-size: 22px;
+}
+.st3 {
+  margin: 8px 0 4px 0;
+  color:  rgb(50,150,0);
+  font-size: 18px;
+}
+section h3 + div {
+  padding-left: 30px;
+}
+section h4 {
+  padding-left: 30px;
+}
+section h4 + div {
+  padding-left: 55px;
+}
+section h5 {
+  padding-left: 30px;
+}
+section h5 + div {
+  padding-left: 55px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  nav {
+    justify-content: space-around;
+    flex-direction: column;
+    /*----------------------*/
+    height: auto;
+    /*----------------------*/
+  }
+  nav a {
+    text-align: center;
+    margin: 4px 5px;
+    width: 100%;
+  }
+  #fbox1 {
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+  }
+}
