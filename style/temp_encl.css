@@ -48,6 +48,10 @@ nav a:hover {
               background-color 0.35s;
 
 }
+#selected {
+  color: black;
+  background-color: white;
+}
 
 /* ASIDE */
 #fbox1 {
@@ -108,6 +112,7 @@ aside h5 a:hover {
 
 /* SECTION */
 section {
+  width: 100%;
   flex-direction: column;
   /*----------------------*/
   background-color: white;
@@ -154,6 +159,11 @@ section h5 {
 }
 section h5 + div {
   padding-left: 55px;
+}
+
+
+li.info {
+  margin-bottom: 15px;
 }
 
 
