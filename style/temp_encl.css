@@ -194,6 +194,38 @@ section h5 + div {
 }
 
 
+
+p.kw {
+  max-width: 70%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: space-around;
+/*----------------------*/
+  padding: 0 20px 2px 20px;
+  margin: 5px;
+  margin-left: 25px;
+/*----------------------*/
+  border: solid 1px;
+  border-color: #DCDCDC;
+  border-radius: 7px;
+}
+p.kw a {
+  padding: 0 5px 0 5px;
+  margin: 0;
+/*----------------------*/
+  font-size: 14px;
+  color: DarkGray;
+  text-decoration: none;
+}
+p.kw a:hover {
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+
+
 li.info {
   margin-bottom: 15px;
 }
@@ -227,5 +259,8 @@ li.info {
   }
   nav#infost {
     display: none;
+  }
+  p.kw, p.kw a{
+    font-size: 11px;
   }
 }
