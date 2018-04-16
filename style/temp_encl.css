@@ -194,7 +194,7 @@ section h5 + div {
 }
 
 
-
+/* CONTAINER DE MOTS CLES */
 p.kw {
   width: 60%;
   flex-direction: row;
@@ -205,7 +205,7 @@ p.kw {
 /*----------------------*/
   padding: 0 20px 2px 20px;
   margin: 5px;
-  margin-left: 25px;
+  margin-left: 20px;
 /*----------------------*/
   border: solid 1px;
   border-color: #DCDCDC;
@@ -233,7 +233,25 @@ li.info {
 
 
 
-
+/* DESCRIPTION DES LIVRES */
+input.ensavoirplus {
+  width: 100px;
+  margin-left: 15px;
+  /*----------------------*/
+  font-size: 12px;
+  color: gray;
+  border-radius: 5px;
+}
+input.ensavoirplus:hover {
+  background-color: #CDCDCD;
+  transition: background-color 0.2s;
+}
+p.ensavoirplus {
+  font-size: 13px;
+  font-style: italic;
+  /*----------------------*/
+  margin-left: 50px;
+}
 
 
 
