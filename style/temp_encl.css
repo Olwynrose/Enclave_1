@@ -257,13 +257,21 @@ p.ensavoirplus {
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
   nav#main {
     justify-content: space-around;
     flex-direction: column;
     /*----------------------*/
     height: auto;
-    /*----------------------*/
   }
   nav#main a {
     text-align: center;
