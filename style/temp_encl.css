@@ -69,6 +69,14 @@ nav#infost {
 }
 nav#infost a {
   margin: 1px 0;
+/*----------------------*/
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-size: 14px;
+}
+nav#infost a:hover {
+  text-decoration: underline;
 }
 nav#infost div {
   flex-direction: row;
@@ -80,9 +88,16 @@ nav#infost div {
   align-items: baseline;
   align-content: space-around;
 }
+nav#infost a#selected {
+  padding: 5px;
+  background-color: #CDCDCD;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #CDCDCD;
+}
 hr {
   width: 70%;
 }
+
 
 
 /* ASIDE */
@@ -296,6 +311,28 @@ div.photo img {
   height: 215px;
   margin: 10px 10px;
 }
+
+
+
+
+/* PROBLEMATIQUES */
+div.column5 {
+  -webkit-columns: 5;
+	-moz-columns: 5;
+	columns: 5;
+  margin: 50px auto;
+}
+li.lettre {
+  list-style: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+
+
+
+
 
 
 
